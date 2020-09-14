@@ -12,6 +12,12 @@ Enable it before reboot:
 ```bash
 systemctl enable argononed.service
 ```
+## RECENT FIXES
+Concerning the install RPI.GPIO crash. It's fixed :)
+```bash
+env CFLAGS="-fcommon"
+```
+added to fix 
 
 ## This repo will be destroy if kounch patch his repo for Raspberry Pi 4, don't want to fork, just helping users wants to have a ready to use solution
 
