@@ -12,7 +12,11 @@ Enable it before reboot:
 ```bash
 systemctl enable argononed.service
 ```
+## RECENT CHANGES
+- lisanet commit to take the temperature by kernel call. vcgencmd is no more required to do it. Thanks to her
+
 ## RECENT FIXES
+
 Concerning the install RPI.GPIO crash. It's fixed :)
 ```bash
 env CFLAGS="-fcommon"
